@@ -1,0 +1,23 @@
+{
+    "name": "Atlas, Rise!",
+    "short_name": "Atlasrise",
+    "start_uri": "/?homescreen=1",
+    "icons": [
+        {
+            "src": "/assets/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "background_color": "#FFFFFF",
+    "theme_color": "#DED6C7",
+    "display": "standalone",
+    "lang": "en"
+}
