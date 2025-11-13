@@ -1,0 +1,73 @@
+button,
+a.button,
+page-link.button a {
+    display: inline-block;
+    background: var(--text);
+    color: var(--text-reverse);
+    line-height: 1;
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 4px solid var(--text-reverse);
+    border-right: 4px solid var(--text-reverse);
+    font-family: "Times", "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: background 100ms;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.button-stretch {
+    flex-grow: 1;
+    min-width: 0;
+}
+
+page-link.button.block a {
+    display: block;
+    width: 100%;
+}
+
+a.button:active,
+button:active {
+    outline: none;
+}
+
+@media only screen and (min-width: 992px) {
+    a.button:hover,
+    button:hover,
+    a.button:focus,
+    button:focus {
+        background-color: var(--background);
+    }
+}
+
+button.onblack,
+a.button.onblack,
+page-link.button.onblack a {
+    border-bottom: 4px solid var(--primary);
+    border-right: 4px solid var(--primary);
+}
+
+button.onblack:hover,
+a.button.onblack:hover,
+page-link.button.onblack:hover a {
+    border-bottom: 4px solid var(--background);
+    border-right: 4px solid var(--background);
+}
+
+button:hover,
+a.button:hover,
+page-link.button:hover a {
+    border-bottom: 4px solid var(--primary);
+    border-right: 4px solid var(--primary);
+    color: var(--primary);
+}
+
+bll {
+    border-right: 4px solid var(--background);
+}

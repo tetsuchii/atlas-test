@@ -1,0 +1,4 @@
+#/bin/sh
+IMAGE=registry.webandmore.hu/frontira/atlasrise:latest
+DOCKER_BUILDKIT=1 docker build -t $IMAGE  .
+docker push $IMAGE

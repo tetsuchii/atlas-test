@@ -1,0 +1,58 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    width: 100%;
+}
+
+.box .box-header {
+    width: 100%;
+    color: var(--primara-text);
+    background-color: var(--primary);
+    padding: 10px 30px;
+}
+.box .box-header h4{
+}
+
+.box .box-body {
+    width: 100%;
+    padding: 20px 20px;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+.box .box-header + .box-body {
+    padding: 20px 30px;
+}
+
+.box.box-inverse .box-header {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.box.box-inverse .box-body {
+    color: var(--text);
+    background-color: var(--primary);
+}
+
+.box.box-darker .box-body {
+    color: var(--text);
+    background-color: var(--background);
+}
+
+.box .box-body > *  {
+    margin: 0;
+}
+
+.box .box-body > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 410px) {
+    .box .box-body {
+        padding: 10px 0px;
+    }
+}

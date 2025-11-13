@@ -1,0 +1,11 @@
+services:
+  app:
+    image: registry.webandmore.hu/frontira/atlasrise:latest
+    build:
+      context: .
+    ports:
+      - 80:8080
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.carbon.rule=Host(`${APP_HOST:-carbon.ds9.bayi.hu}`)"
+      - "traefik.http.services.carbon.loadbalancer.server.port=${HTTP_PORT:-80}"

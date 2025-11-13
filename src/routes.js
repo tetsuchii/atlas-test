@@ -1,0 +1,20 @@
+export default {
+    404: "/pages/404.html",
+    "/": "/pages/main.html",
+    "/about-us": "/pages/about-us.html",
+    "/services": "/pages/services.html",
+    "/low-carbon": "/pages/low-carbon.html",
+    "/contact-us": "/pages/contact-us.html",
+    "/thank-you": "/pages/thank-you.html",
+    "/academy": "/pages/academy.html",
+    "/case-studies": "/pages/case-studies.html",
+    "/privacy-policy": "/pages/privacy-policy.html",
+
+    "/pay-n-go": "/pages/pay-n-go.html",
+    "/the-age-of-cybercrime": "/pages/the-age-of-cybercrime.html",
+    "/social-lab": "/pages/social-lab.html",
+    "/rewilding-at-balaton": "/pages/rewilding-at-balaton.html",
+    "/nautech": "/pages/nautech.html",
+    "/redesigning-digital-donations": "/pages/redesigning-digital-donations.html",
+    "/nxlog": "/pages/nxlog.html",
+}

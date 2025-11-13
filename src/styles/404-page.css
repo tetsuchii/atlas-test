@@ -1,0 +1,12 @@
+.main.page-404 contact-form .contact-header {
+    display: none;
+}
+.main.page-404 contact-form .contact-header-404 {
+    display: block;
+}
+.main:not(.page-404) contact-form .contact-header {
+    display: block;
+}
+.main:not(.page-404) contact-form .contact-header-404 {
+    display: none;
+}

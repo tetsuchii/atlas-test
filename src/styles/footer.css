@@ -1,0 +1,43 @@
+footer {
+    font-size: 13px;
+}
+
+footer div.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+footer div.split {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer div.split aside {
+    min-width: 50%;
+    padding: 0;
+}
+
+footer div.split aside ul li {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+    footer div.split {
+        flex-wrap: nowrap;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    footer div.split aside:nth-child(1) {
+        padding-right: 100px;
+    }
+
+}
+
+footer nav ul {
+    display: flex;
+}
